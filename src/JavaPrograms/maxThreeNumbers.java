@@ -2,7 +2,7 @@ package JavaPrograms;
 
 import java.util.Scanner;
 
-public class maxTwoNumbers {
+public class maxThreeNumbers {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
