@@ -1,9 +1,9 @@
 package JavaPrograms;
 
 public class Book {
-	String title;
-	String author_name;
-	double price;
+	private String title;
+	private String author_name;
+	private double price;
 	
 	Book(String title, String author_name, double price){
 		this.title = title;
