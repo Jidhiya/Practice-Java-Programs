@@ -10,11 +10,12 @@ public class Cylinder extends Circle {
 	}
 	
 	public double volume() {
-		return Math.PI*this.radius*this.radius*this.height;
+		
+		return Math.round(Math.PI*this.radius*this.radius*this.height);
 	}
 	
 	public double area() {
-		return 2*Math.PI*this.radius*(this.radius+this.height);
+		return Math.round(2*Math.PI*this.radius*(this.radius+this.height));
 	}
 
 }
